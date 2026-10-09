@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="description" content="Vishwakala Drawing Institute — TCC Drawing Lower & Higher Grade, secure student learning portal, videos, PDF notes and tests.">
 <title>Vishwakala Drawing Institute | TCC Drawing</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,6 +51,7 @@
         <span>✓ Online Tests</span>
       </div>
     </div>
+
     <div class="hero-art">
       <div class="phone">
         <div class="phone-logo"><img src="assets/logo.jpeg" alt="Logo"></div>
@@ -87,6 +88,7 @@
       <h2>About TCC Drawing</h2>
       <p>Structured learning resources for students preparing for Drawing examinations and developing practical art skills.</p>
     </div>
+
     <div class="tcc-grid">
       <article class="info-card orange">
         <span class="icon">🎨</span>
@@ -103,6 +105,7 @@
           <li>Pattern Design</li>
         </ol>
       </article>
+
       <article class="info-card gold">
         <span class="icon">🖼️</span>
         <h3>TCC Higher Grade</h3>
@@ -118,6 +121,7 @@
           <li>Perspective Drawing</li>
         </ol>
       </article>
+
       <aside class="eligibility">
         <h3>🎓 Eligibility</h3>
         <p>Eligibility and recruitment conditions should always be checked against the latest official notification applicable to the student.</p>
@@ -134,6 +138,7 @@
       <h2>One Learning Ecosystem</h2>
       <p>Public information is open to everyone. Learning resources are available only after Firebase login and approval.</p>
     </div>
+
     <div class="feature-grid">
       <div>🎨<b>TCC Lower Grade</b><small>Video classes & notes</small></div>
       <div>🖼️<b>TCC Higher Grade</b><small>Video classes & notes</small></div>
@@ -158,6 +163,7 @@
       <h2>Jobs & Opportunities</h2>
       <p>Possible career directions after developing drawing, art and teaching skills. Actual eligibility depends on the employer and applicable rules.</p>
     </div>
+
     <div class="jobs-grid">
       <article>🏫<h3>Art & Craft Teacher</h3><p>School and education opportunities subject to recruitment requirements.</p></article>
       <article>🖌️<h3>Drawing Instructor</h3><p>Private schools, institutes and coaching centres.</p></article>
@@ -168,20 +174,22 @@
   </div>
 </section>
 
+<!-- ANDROID APP DOWNLOAD -->
 <section id="download" class="download-section">
   <div class="container download-grid">
     <div>
       <span class="eyebrow">ANDROID APP</span>
       <h2>Vishwakala in Your Pocket</h2>
       <p>Use the mobile app or this website with the same approved-student Firebase account.</p>
+
       <a
         class="btn btn-download"
-        href="https://github.com/vishwakaladrawinginstitute-boop/vishwakala-website/releases/tag/v1.1.0"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="https://github.com/vishwakaladrawinginstitute-boop/vishwakala-website/releases/download/v1.1.0/app-release.apk"
       >🤖 Download App (APK)</a>
-      <small class="download-note">Open the release page and select app-release.apk to download version 1.1.0.</small>
+
+      <small class="download-note">Download the Vishwakala Android app, version 1.1.0.</small>
     </div>
+
     <div class="download-checks">
       <span>✓ Same Firebase account</span>
       <span>✓ Approval-based access</span>
@@ -203,6 +211,7 @@
       </div>
       <button id="logoutBtn" class="btn btn-outline">Logout</button>
     </div>
+
     <div class="portal-grid">
       <div class="portal-card">
         <div class="portal-icon">🎥</div>
@@ -210,24 +219,28 @@
         <p>Videos are loaded directly from your Firebase Storage.</p>
         <button class="small-btn" id="loadVideos">Load Videos</button>
       </div>
+
       <div class="portal-card">
         <div class="portal-icon">📚</div>
         <h3>PDF Notes</h3>
         <p>Open your existing Firebase PDF notes.</p>
         <button class="small-btn" id="loadPdfs">Load PDF Notes</button>
       </div>
+
       <div class="portal-card">
         <div class="portal-icon">📝</div>
         <h3>Tests</h3>
         <p>Your authenticated test area can be connected next.</p>
         <span class="locked-label">Protected</span>
       </div>
+
       <div class="portal-card">
         <div class="portal-icon">👤</div>
         <h3>My Profile</h3>
         <p id="profileInfo">Loading profile…</p>
       </div>
     </div>
+
     <div id="videoArea" class="portal-content"></div>
     <div id="pdfArea" class="portal-content"></div>
   </div>
@@ -244,6 +257,7 @@
       </div>
       <p>Drawing • Art • Craft • TCC Learning</p>
     </div>
+
     <div>
       <h4>Quick Links</h4>
       <a href="#tcc">TCC Course</a>
@@ -251,6 +265,7 @@
       <a href="#jobs">Jobs</a>
       <button class="footer-login" id="footerLogin">Student Login</button>
     </div>
+
     <div>
       <h4>Contact</h4>
       <p>📞 6305043787</p>
@@ -259,6 +274,7 @@
       <a class="whatsapp" href="https://wa.me/916305043787" target="_blank" rel="noopener">WhatsApp Us</a>
     </div>
   </div>
+
   <div class="copyright">© 2026 Vishwakala Drawing Institute. All Rights Reserved.</div>
 </footer>
 
@@ -269,12 +285,18 @@
     <span class="eyebrow">STUDENT PORTAL</span>
     <h2>Welcome Back</h2>
     <p>Login with the same Firebase account used in the Vishwakala app.</p>
+
     <form id="loginForm">
-      <label>Email<input id="email" type="email" autocomplete="username" required placeholder="Enter email"></label>
-      <label>Password<input id="password" type="password" autocomplete="current-password" required placeholder="Enter password"></label>
+      <label>Email
+        <input id="email" type="email" autocomplete="username" required placeholder="Enter email">
+      </label>
+      <label>Password
+        <input id="password" type="password" autocomplete="current-password" required placeholder="Enter password">
+      </label>
       <button class="btn btn-primary full" type="submit">Login Securely</button>
       <div id="loginStatus" class="status"></div>
     </form>
+
     <div class="approval-note">🔐 Access is allowed only for <b>approved students</b>.</div>
   </div>
 </div>
